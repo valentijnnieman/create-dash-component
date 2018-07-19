@@ -1,6 +1,6 @@
 ## create-dash-component
 ### A CLI for creating Dash components from React components
-
+![image](https://github.com/valentijnnieman/create-dash-component/blob/master/cdc-instructions.gif)
 ### Installing
 - run `npm install create-dash-component` in your terminal, optionally you can add `-g` to install it globally.
 
