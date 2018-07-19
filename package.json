@@ -1,0 +1,27 @@
+{
+  "name": "create-dash-component",
+  "version": "0.0.1",
+  "description": "A CLI for building custom Dash components from React",
+  "main": "bin/main.js",
+  "scripts": {
+  },
+  "bin": {
+    "create-dash-component": "bin/main.js",
+    "dash-extract-meta": "bin/extract-meta.js",
+    "dash-copy-bundle": "bin/copy-bundle.js"
+  },
+  "keywords": [
+    "cli",
+    "dash",
+    "plotly"
+  ],
+  "author": "valentijn nieman",
+  "license": "MIT",
+  "dependencies": {
+    "cp": "^0.2.0",
+    "find": "^0.2.9",
+    "mkdirp": "^0.5.1",
+    "react-docgen": "^2.21.0",
+    "shelljs": "^0.8.2"
+  }
+}
