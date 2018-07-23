@@ -10,13 +10,6 @@ const componentPath = args[0];
 const buildFileLocation = args[1];
 
 introMessage();
-// try {
-//   shell.exec("dash-extract-meta " + componentPath);
-// } catch(error) {
-//   console.log(error);
-//   process.exit(1);
-// }
-
 createDashComponent();
 
 function createDashComponent() {

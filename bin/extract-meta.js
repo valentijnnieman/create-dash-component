@@ -69,8 +69,8 @@ function collectMetadataRecursively(componentPath) {
 
 function writeOut(result) {
   // console.log(JSON.stringify(result, '\t', 2));
-  const package = require(process.cwd() + "/package.json");
-  const package_name = package.name.replace("-", "_");
+  const componentPackage = require(process.cwd() + "/package.json");
+  const package_name = componentPackage.name.replace("-", "_");
   mkdirp(package_name, err => {
     if (err) {
       return console.log(err);
