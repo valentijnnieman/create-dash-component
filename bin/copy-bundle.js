@@ -17,7 +17,6 @@ function copyBundle(inputFolder = "./build/static/js/", fileName = /\.js$/) {
 
   try {
     const files = find.fileSync(fileName, inputFolder);
-    console.log(`Found ${chalk.yellow(files)}, copying...`);
     shell.exec(`cp ${files[0]} ./${outputFolder}/bundle.js`);
     console.log(
       `Copied ${chalk.yellow(files)} as ${chalk.magenta(
