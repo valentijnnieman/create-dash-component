@@ -4,11 +4,10 @@
   "description": "A CLI for building custom Dash components from React",
   "main": "bin/main.js",
   "scripts": {
+    "test": "jest test"
   },
   "bin": {
-    "create-dash-component": "bin/main.js",
-    "dash-extract-meta": "bin/extract-meta.js",
-    "dash-copy-bundle": "bin/copy-bundle.js"
+    "create-dash-component": "bin/main.js"
   },
   "keywords": [
     "cli",
@@ -18,10 +17,14 @@
   "author": "valentijn nieman",
   "license": "MIT",
   "dependencies": {
+    "chalk": "^2.4.1",
     "cp": "^0.2.0",
     "find": "^0.2.9",
     "mkdirp": "^0.5.1",
     "react-docgen": "^2.21.0",
     "shelljs": "^0.8.2"
+  },
+  "devDependencies": {
+    "jest": "^23.4.1"
   }
 }
